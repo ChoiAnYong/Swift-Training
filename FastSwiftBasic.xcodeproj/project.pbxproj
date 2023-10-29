@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		AD41584F2AEE0C5900C34C46 /* SimpleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD41584E2AEE0C5900C34C46 /* SimpleView.swift */; };
+		AD4158512AEE0EF700C34C46 /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4158502AEE0EF700C34C46 /* Layout.swift */; };
+		AD4158542AEE110800C34C46 /* MyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4158532AEE110800C34C46 /* MyButton.swift */; };
+		AD4158562AEE14AD00C34C46 /* MyText.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4158552AEE14AD00C34C46 /* MyText.swift */; };
+		AD4158582AEE17D200C34C46 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4158572AEE17D200C34C46 /* Onboarding.swift */; };
+		AD41585B2AEE2DBB00C34C46 /* ListLoop.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD41585A2AEE2DBB00C34C46 /* ListLoop.swift */; };
+		AD41585D2AEE3DA900C34C46 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD41585C2AEE3DA900C34C46 /* Setting.swift */; };
+		AD4158602AEE520400C34C46 /* Modal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD41585F2AEE520400C34C46 /* Modal.swift */; };
+		AD4158622AEE532B00C34C46 /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4158612AEE532B00C34C46 /* Detail.swift */; };
+		AD4158642AEE574100C34C46 /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4158632AEE574100C34C46 /* Navigation.swift */; };
 		AD5DCA8A2AE7F7B000A6F9CD /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5DCA892AE7F7B000A6F9CD /* Sample.swift */; };
 		AD5DCA8C2AE8008100A6F9CD /* Exception.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5DCA8B2AE8008100A6F9CD /* Exception.swift */; };
 		AD5DCA8E2AE80E9D00A6F9CD /* MyCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5DCA8D2AE80E9D00A6F9CD /* MyCar.swift */; };
@@ -43,6 +52,15 @@
 
 /* Begin PBXFileReference section */
 		AD41584E2AEE0C5900C34C46 /* SimpleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleView.swift; sourceTree = "<group>"; };
+		AD4158502AEE0EF700C34C46 /* Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layout.swift; sourceTree = "<group>"; };
+		AD4158532AEE110800C34C46 /* MyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButton.swift; sourceTree = "<group>"; };
+		AD4158552AEE14AD00C34C46 /* MyText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyText.swift; sourceTree = "<group>"; };
+		AD4158572AEE17D200C34C46 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		AD41585A2AEE2DBB00C34C46 /* ListLoop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListLoop.swift; sourceTree = "<group>"; };
+		AD41585C2AEE3DA900C34C46 /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
+		AD41585F2AEE520400C34C46 /* Modal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modal.swift; sourceTree = "<group>"; };
+		AD4158612AEE532B00C34C46 /* Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
+		AD4158632AEE574100C34C46 /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
 		AD5DCA892AE7F7B000A6F9CD /* Sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample.swift; sourceTree = "<group>"; };
 		AD5DCA8B2AE8008100A6F9CD /* Exception.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exception.swift; sourceTree = "<group>"; };
 		AD5DCA8D2AE80E9D00A6F9CD /* MyCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCar.swift; sourceTree = "<group>"; };
@@ -87,6 +105,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD4158522AEE0F1200C34C46 /* WarmUp 01 */ = {
+			isa = PBXGroup;
+			children = (
+				AD41584E2AEE0C5900C34C46 /* SimpleView.swift */,
+				AD4158502AEE0EF700C34C46 /* Layout.swift */,
+				AD4158532AEE110800C34C46 /* MyButton.swift */,
+				AD4158552AEE14AD00C34C46 /* MyText.swift */,
+				AD4158572AEE17D200C34C46 /* Onboarding.swift */,
+			);
+			path = "WarmUp 01";
+			sourceTree = "<group>";
+		};
+		AD4158592AEE2DA400C34C46 /* WarmUp 02 */ = {
+			isa = PBXGroup;
+			children = (
+				AD41585A2AEE2DBB00C34C46 /* ListLoop.swift */,
+				AD41585C2AEE3DA900C34C46 /* Setting.swift */,
+			);
+			path = "WarmUp 02";
+			sourceTree = "<group>";
+		};
+		AD41585E2AEE51EE00C34C46 /* WarmUp 03 */ = {
+			isa = PBXGroup;
+			children = (
+				AD41585F2AEE520400C34C46 /* Modal.swift */,
+				AD4158612AEE532B00C34C46 /* Detail.swift */,
+				AD4158632AEE574100C34C46 /* Navigation.swift */,
+			);
+			path = "WarmUp 03";
+			sourceTree = "<group>";
+		};
 		ADD535532AD1640C00255695 = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +159,9 @@
 		ADD5355E2AD1640C00255695 /* FastSwiftBasic */ = {
 			isa = PBXGroup;
 			children = (
+				AD41585E2AEE51EE00C34C46 /* WarmUp 03 */,
+				AD4158592AEE2DA400C34C46 /* WarmUp 02 */,
+				AD4158522AEE0F1200C34C46 /* WarmUp 01 */,
 				ADD5355F2AD1640C00255695 /* FastSwiftBasicApp.swift */,
 				ADD535612AD1640C00255695 /* ContentView.swift */,
 				ADD535632AD1640D00255695 /* Assets.xcassets */,
@@ -121,7 +173,6 @@
 				AD5DCA8B2AE8008100A6F9CD /* Exception.swift */,
 				AD5DCA8D2AE80E9D00A6F9CD /* MyCar.swift */,
 				AD5DCA8F2AE812F000A6F9CD /* MyGeneric.swift */,
-				AD41584E2AEE0C5900C34C46 /* SimpleView.swift */,
 			);
 			path = FastSwiftBasic;
 			sourceTree = "<group>";
@@ -281,16 +332,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD41585B2AEE2DBB00C34C46 /* ListLoop.swift in Sources */,
 				AD9399532AD297A9004EB13B /* Half.swift in Sources */,
+				AD4158622AEE532B00C34C46 /* Detail.swift in Sources */,
 				AD5DCA8A2AE7F7B000A6F9CD /* Sample.swift in Sources */,
 				AD41584F2AEE0C5900C34C46 /* SimpleView.swift in Sources */,
+				AD4158562AEE14AD00C34C46 /* MyText.swift in Sources */,
 				AD5DCA8E2AE80E9D00A6F9CD /* MyCar.swift in Sources */,
+				AD41585D2AEE3DA900C34C46 /* Setting.swift in Sources */,
 				AD9399552AD2A79A004EB13B /* Choice.swift in Sources */,
+				AD4158642AEE574100C34C46 /* Navigation.swift in Sources */,
 				AD93994F2AD27C2B004EB13B /* Loop.swift in Sources */,
+				AD4158602AEE520400C34C46 /* Modal.swift in Sources */,
 				ADD535622AD1640C00255695 /* ContentView.swift in Sources */,
+				AD4158512AEE0EF700C34C46 /* Layout.swift in Sources */,
 				ADD535602AD1640C00255695 /* FastSwiftBasicApp.swift in Sources */,
+				AD4158582AEE17D200C34C46 /* Onboarding.swift in Sources */,
 				AD5DCA8C2AE8008100A6F9CD /* Exception.swift in Sources */,
 				AD5DCA902AE812F000A6F9CD /* MyGeneric.swift in Sources */,
+				AD4158542AEE110800C34C46 /* MyButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
