@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD3A954A2AEE8C1E00813BA3 /* MyTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3A95492AEE8C1E00813BA3 /* MyTab.swift */; };
+		AD3A954C2AEE8D1300813BA3 /* TabDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3A954B2AEE8D1300813BA3 /* TabDetail.swift */; };
+		AD3A954E2AEE90C300813BA3 /* MyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3A954D2AEE90C300813BA3 /* MyApp.swift */; };
+		AD3A95512AEE942900813BA3 /* FirstList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3A95502AEE942900813BA3 /* FirstList.swift */; };
+		AD3A95532AEE947600813BA3 /* OnboardingSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3A95522AEE947600813BA3 /* OnboardingSample.swift */; };
 		AD41584F2AEE0C5900C34C46 /* SimpleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD41584E2AEE0C5900C34C46 /* SimpleView.swift */; };
 		AD4158512AEE0EF700C34C46 /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4158502AEE0EF700C34C46 /* Layout.swift */; };
 		AD4158542AEE110800C34C46 /* MyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4158532AEE110800C34C46 /* MyButton.swift */; };
@@ -51,6 +56,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AD3A95492AEE8C1E00813BA3 /* MyTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTab.swift; sourceTree = "<group>"; };
+		AD3A954B2AEE8D1300813BA3 /* TabDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabDetail.swift; sourceTree = "<group>"; };
+		AD3A954D2AEE90C300813BA3 /* MyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyApp.swift; sourceTree = "<group>"; };
+		AD3A95502AEE942900813BA3 /* FirstList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstList.swift; sourceTree = "<group>"; };
+		AD3A95522AEE947600813BA3 /* OnboardingSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSample.swift; sourceTree = "<group>"; };
 		AD41584E2AEE0C5900C34C46 /* SimpleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleView.swift; sourceTree = "<group>"; };
 		AD4158502AEE0EF700C34C46 /* Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layout.swift; sourceTree = "<group>"; };
 		AD4158532AEE110800C34C46 /* MyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButton.swift; sourceTree = "<group>"; };
@@ -105,6 +115,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD3A954F2AEE940E00813BA3 /* MyApp */ = {
+			isa = PBXGroup;
+			children = (
+				AD3A954D2AEE90C300813BA3 /* MyApp.swift */,
+				AD3A95502AEE942900813BA3 /* FirstList.swift */,
+				AD3A95522AEE947600813BA3 /* OnboardingSample.swift */,
+			);
+			path = MyApp;
+			sourceTree = "<group>";
+		};
 		AD4158522AEE0F1200C34C46 /* WarmUp 01 */ = {
 			isa = PBXGroup;
 			children = (
@@ -129,9 +149,12 @@
 		AD41585E2AEE51EE00C34C46 /* WarmUp 03 */ = {
 			isa = PBXGroup;
 			children = (
+				AD3A954F2AEE940E00813BA3 /* MyApp */,
 				AD41585F2AEE520400C34C46 /* Modal.swift */,
 				AD4158612AEE532B00C34C46 /* Detail.swift */,
 				AD4158632AEE574100C34C46 /* Navigation.swift */,
+				AD3A95492AEE8C1E00813BA3 /* MyTab.swift */,
+				AD3A954B2AEE8D1300813BA3 /* TabDetail.swift */,
 			);
 			path = "WarmUp 03";
 			sourceTree = "<group>";
@@ -332,6 +355,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD3A95532AEE947600813BA3 /* OnboardingSample.swift in Sources */,
 				AD41585B2AEE2DBB00C34C46 /* ListLoop.swift in Sources */,
 				AD9399532AD297A9004EB13B /* Half.swift in Sources */,
 				AD4158622AEE532B00C34C46 /* Detail.swift in Sources */,
@@ -339,6 +363,7 @@
 				AD41584F2AEE0C5900C34C46 /* SimpleView.swift in Sources */,
 				AD4158562AEE14AD00C34C46 /* MyText.swift in Sources */,
 				AD5DCA8E2AE80E9D00A6F9CD /* MyCar.swift in Sources */,
+				AD3A954E2AEE90C300813BA3 /* MyApp.swift in Sources */,
 				AD41585D2AEE3DA900C34C46 /* Setting.swift in Sources */,
 				AD9399552AD2A79A004EB13B /* Choice.swift in Sources */,
 				AD4158642AEE574100C34C46 /* Navigation.swift in Sources */,
@@ -346,9 +371,12 @@
 				AD4158602AEE520400C34C46 /* Modal.swift in Sources */,
 				ADD535622AD1640C00255695 /* ContentView.swift in Sources */,
 				AD4158512AEE0EF700C34C46 /* Layout.swift in Sources */,
+				AD3A95512AEE942900813BA3 /* FirstList.swift in Sources */,
 				ADD535602AD1640C00255695 /* FastSwiftBasicApp.swift in Sources */,
+				AD3A954A2AEE8C1E00813BA3 /* MyTab.swift in Sources */,
 				AD4158582AEE17D200C34C46 /* Onboarding.swift in Sources */,
 				AD5DCA8C2AE8008100A6F9CD /* Exception.swift in Sources */,
+				AD3A954C2AEE8D1300813BA3 /* TabDetail.swift in Sources */,
 				AD5DCA902AE812F000A6F9CD /* MyGeneric.swift in Sources */,
 				AD4158542AEE110800C34C46 /* MyButton.swift in Sources */,
 			);
